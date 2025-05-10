@@ -40,18 +40,22 @@
   <body class="font-manrope">
     <!-- header -->
     <header class="bg-gradient-to-b from-[#F4F4F4] to-[#FEFEFE]">
-      <!-- navbar section -->
+      <!-- navbar -->
       <nav class="container mx-auto lg:px-16 px-5">
         <div class="navbar py-10 lg:flex items-center">
           <div class="navbar-start">
-             <div class="flex items-center">
+            <div class="flex items-center">
               <i
                 class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full p-2 -rotate-45 h-8 w-8 mr-2"
               ></i>
               <p class="text-3xl font-extrabold">Rinterio</p>
             </div>
             <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ml-60 ">
+              <div
+                tabindex="0"
+                role="button"
+                class="btn btn-ghost lg:hidden ml-60"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5"
@@ -136,7 +140,7 @@
               class="fa-solid fa-cart-shopping bg-white rounded-full p-2 mx-2"
             ></i>
             <a class="btn rounded-3xl p-6 bg-[#ABEF5F]"
-              ><p class="font-bold text-xl">Book Consult</p>
+              ><p class="font-bold text-xl text-darkGray">Book Consult</p>
               <i
                 class="fa-solid fa-arrow-right bg-[#1C1C1C] rounded-full p-2 text-white -rotate-45"
               ></i
@@ -144,6 +148,24 @@
           </div>
         </div>
       </nav>
+      
+      <!-- banner section -->
+      <section class="container mx-auto lg:px-16 px-5">
+        <div class="hero min-h-screen">
+          <div class="hero-content text-center">
+            <div class="max-w-5xl space-y-5">
+              <img src="./assets/banner.png" alt="" class="mx-auto w-1/2">
+              <h1 class="lg:text-6xl md:text-4xl text-2xl font-bold text-darkGray">A barn house of this design has a <br> striking appearance</h1>
+              <p class="py-6 lg:text-base text-sm font-medium text-lightGray">
+               The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.
+              </p>
+              <button class="btn bg-[#D4F6AE] p-6 rounded-3xl mb-20"><p class="font-bold text-xl text-darkGray">View Details</p><i
+                class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full p-2 text-white -rotate-45"
+              ></i></button>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
     <!-- main -->
     <main></main>
