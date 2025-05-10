@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rinterio</title>
+    <!-- daisyUi -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom style -->
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+        --color-lightGray: #737373;
+        --color-middleGray: #494949;
+        --color-darkGray: #212121;
+        --font-manrope: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="font-manrope">
+    <!-- header -->
+    <header class="bg-gradient-to-b from-[#F4F4F4] to-[#FEFEFE]">
+      <!-- navbar section -->
+      <nav class="container mx-auto lg:px-16 px-5">
+        <div class="navbar py-10 lg:flex items-center">
+          <div class="navbar-start">
+             <div class="flex items-center">
+              <i
+                class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full p-2 -rotate-45 h-8 w-8 mr-2"
+              ></i>
+              <p class="text-3xl font-extrabold">Rinterio</p>
+            </div>
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ml-60 ">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              >
+                <li
+                  class="text-lightGray hover:text-middleGray hover:font-extrabold hover:-translate-y-1"
+                >
+                  <a>Home</a>
+                </li>
+                <li
+                  class="text-lightGray hover:text-middleGray hover:font-extrabold hover:-translate-y-1"
+                >
+                  <a>Services</a>
+                </li>
+                <li
+                  class="text-lightGray hover:text-middleGray hover:font-extrabold hover:-translate-y-1"
+                >
+                  <a>Portfolio</a>
+                </li>
+                <li
+                  class="text-lightGray hover:text-middleGray hover:font-extrabold hover:-translate-y-1"
+                >
+                  <a>Blogs</a>
+                </li>
+                <li
+                  class="text-lightGray hover:text-middleGray hover:font-extrabold hover:-translate-y-1"
+                >
+                  <a>Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal lg:mr-28 mr-12">
+              <li
+                class="text-lightGray hover:text-middleGray hover:font-extrabold hover:transition hover:-translate-y-1"
+              >
+                <a>Home</a>
+              </li>
+              <li
+                class="text-lightGray hover:text-middleGray hover:font-extrabold hover:transition hover:-translate-y-1"
+              >
+                <a>Services</a>
+              </li>
+              <li
+                class="text-lightGray hover:text-middleGray hover:font-extrabold hover:transition hover:-translate-y-1"
+              >
+                <a>Portfolio</a>
+              </li>
+              <li
+                class="text-lightGray hover:text-middleGray hover:font-extrabold hover:transition hover:-translate-y-1"
+              >
+                <a>Blogs</a>
+              </li>
+              <li
+                class="text-lightGray hover:text-middleGray hover:font-extrabold hover:transition hover:-translate-y-1"
+              >
+                <a>Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end lg:flex hidden">
+            <i
+              class="fa-solid fa-magnifying-glass bg-white rounded-full p-2"
+            ></i>
+            <i
+              class="fa-solid fa-cart-shopping bg-white rounded-full p-2 mx-2"
+            ></i>
+            <a class="btn rounded-3xl p-6 bg-[#ABEF5F]"
+              ><p class="font-bold text-xl">Book Consult</p>
+              <i
+                class="fa-solid fa-arrow-right bg-[#1C1C1C] rounded-full p-2 text-white -rotate-45"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main -->
+    <main></main>
+    <!-- footer -->
+    <footer></footer>
+  </body>
+</html>
